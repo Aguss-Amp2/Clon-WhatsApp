@@ -1,0 +1,31 @@
+.caja-icon:hover {
+    background-color: var(--letter-hover-color);
+}
+
+.caja-li:hover{
+    background-color: #26353d;
+}
+
+.caja-g:hover{
+    background-color: #26353d;
+}
+
+.li-select:hover{
+    background-color: #0b3b33;
+}
+
+.container-msj:hover{
+    background-color: var(--letter-hover-color);
+    cursor: pointer;
+}
+
+.container-msj:hover .flecha-msj{
+    color: var(--letter-color);
+    transition: transform 0.2s ease;
+    transform: translateX(-15px);
+}
+
+.container-msj:hover .msj{
+    transition: transform 0.2s ease;
+    transform: translateX(-15px);
+}
