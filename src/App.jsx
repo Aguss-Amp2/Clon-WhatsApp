@@ -11,7 +11,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<WhatsApp />} />
                 <Route path="/home" element={<WhatsApp />} />
-                <Route path="/chats/:userChatID" element={<ChatsList />} />
+                <Route path="/Chats/:userChatID" element={<ChatsList />} />
             </Routes>
         </div>
     )
